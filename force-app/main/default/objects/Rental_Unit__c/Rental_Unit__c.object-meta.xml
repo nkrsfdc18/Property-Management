@@ -155,9 +155,10 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Rental Unit</label>
     <nameField>
+        <displayFormat>RU-{0000}</displayFormat>
         <label>Rental Unit Name</label>
         <trackHistory>false</trackHistory>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Rental Units</pluralLabel>
     <searchLayouts></searchLayouts>
