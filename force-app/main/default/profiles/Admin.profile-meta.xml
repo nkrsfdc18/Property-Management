@@ -80,6 +80,18 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Certifications__c-Certification Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Payment__c-Payment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Rental_Agreement__c-Rental Agreement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Statement__c-Statement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Rental_Unit__c-Rental Unit Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -107,6 +119,22 @@
         <apexPage>CalculatorPage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
+    <tabVisibilities>
+        <tab>Certifications__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Payment__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Rental_Agreement__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Statement__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Rental_Unit__c</tab>
         <visibility>DefaultOn</visibility>
